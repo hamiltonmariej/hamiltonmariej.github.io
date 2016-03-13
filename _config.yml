@@ -1,6 +1,10 @@
 # SITE CONFIGURATION
 baseurl: "/hamiltonmariej.github.io" # the subpath of your site, e.g. /blog/
+<<<<<<< HEAD
 url: "http://hamiltonmariej.github.io" # the base hostname & protocol for your site
+=======
+url: "http://jeanninehamilton.com" # the base hostname & protocol for your site
+>>>>>>> hamiltonmariej-custom-domain
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
