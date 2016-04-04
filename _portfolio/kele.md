@@ -7,7 +7,7 @@ short-description: A Ruby Gem API client to access the Bloc API.
 
 ---
 ## Summary
-Bloc's API provides an external facing JSON Web Token authorized gateway to the Bloc application.  The Kele API Client provides easy access to and use of the student endpoints of Bloc's API.  To help facilitate that ease, Kele is built as a Ruby Gem for loading into any Rails project.  Find the project on [Github]: https://github.com/hamiltonmariej/Kele.
+Bloc's API provides an external facing JSON Web Token authorized gateway to the Bloc application.  The Kele API Client provides easy access to and use of the student endpoints of Bloc's API.  To help facilitate that ease, Kele is built as a Ruby Gem for loading into any Rails project.  Find the project on [Github] (https://github.com/hamiltonmariej/Kele).
 
 ## Problem
 There is a need for an easier way than cURL to access the Bloc Application API to incorporate into a separate application or API.  A user wants to be able to:
@@ -22,13 +22,11 @@ A server side API Ruby Gem that can solve all the use cases built with Rails 4. 
 An error notification was added so that the user is aware that if a call fails due to incorrect authorization credentials, they are notified and can correct the credentials.
 
 {% highlight ruby %}
-````
 class InvalidStudentCodeError < StandardError
   def initialize(msg="invalid email or password")
     super(msg)
   end
 end
-````
 {% endhighlight %}
 
 ## Results
